@@ -15,5 +15,9 @@ $ curl -O https://bootstrap.pypa.io/get-pip.py
 $ sudo python3 get-pip.py
 ```
 
+### Functions
+* [mesh cleaning](https://github.com/BigTsung/meshlab_plugins/tree/main/Functions/mesh_cleaning)
+* [point cloud to mesh](https://github.com/BigTsung/meshlab_plugins/tree/main/Functions/pc_2_mesh)
+
 ### Reference
 * [pymeshlab doc](https://pymeshlab.readthedocs.io/en/latest/index.html)
