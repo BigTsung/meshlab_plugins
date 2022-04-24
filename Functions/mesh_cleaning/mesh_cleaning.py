@@ -2,7 +2,6 @@ import pymeshlab
 import argparse
 import glob, os
 
-# $ python3 Cleaning.py -i /home/aemass-anson/Desktop/Canonical_45.ply -o /home/aemass-anson/Desktop/Canonical_45_.ply
 if __name__ == '__main__':
 	parser = argparse.ArgumentParser()
 	parser.add_argument("-i", "-input_path", type=str, help="directory of model")
