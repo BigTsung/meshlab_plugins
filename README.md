@@ -18,6 +18,7 @@ $ sudo python3 get-pip.py
 ### Functions
 * [mesh cleaning](https://github.com/BigTsung/meshlab_plugins/tree/main/Functions/mesh_cleaning)
 * [point cloud to mesh](https://github.com/BigTsung/meshlab_plugins/tree/main/Functions/pc_2_mesh)
+* [3D format convertor](https://github.com/BigTsung/meshlab_plugins/tree/main/Functions/format_convertor)
 
 ### Reference
 * [pymeshlab doc](https://pymeshlab.readthedocs.io/en/latest/index.html)
