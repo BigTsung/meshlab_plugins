@@ -6,7 +6,7 @@ from pathlib import Path
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument("-i", "-input_path", type=str, help="directory of model")
-    parser.add_argument("-f", "-format", type=str, help="the target format.(ex: .obj .ply .xyz .e57 .off .stl)")
+    parser.add_argument("-f", "-format", type=str, help="the target format.(ex: obj ply xyz e57 off stl)")
     parser.add_argument("-o", "-output_path", type=str, help="output path")
     args = parser.parse_args()
     inputPath = args.i
