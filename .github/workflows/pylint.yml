@@ -24,6 +24,7 @@ jobs:
         python3 get-pip.py
         python3 --version
         pip3 --version
+        pip3 install -e .
         pip3 install -r $(git ls-files '*requirements.txt')
     - name: Analysing the code with pylint
       run: |
