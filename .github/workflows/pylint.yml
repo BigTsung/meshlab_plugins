@@ -22,6 +22,8 @@ jobs:
       run: |
         curl -O https://bootstrap.pypa.io/get-pip.py
         python3 get-pip.py
+        python3 --verion
+        pip3 --version
         pip3 install -r $(git ls-files '*requirements.txt')
     - name: Analysing the code with pylint
       run: |
