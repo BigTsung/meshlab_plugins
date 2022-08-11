@@ -14,7 +14,7 @@ if __name__ == '__main__':
     print("output path: ", outputPath)
     ms = pymeshlab.MeshSet()
 
-  	if not inputPath:
+    if not inputPath:
         sys.exit(0)
 
     ms.load_new_mesh(inputPath)
