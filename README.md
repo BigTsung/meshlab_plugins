@@ -1,4 +1,7 @@
 # meshlab_plugins
+
+[![Pylint](https://github.com/BigTsung/meshlab_plugins/actions/workflows/pylint.yml/badge.svg)](https://github.com/BigTsung/meshlab_plugins/actions/workflows/pylint.yml)
+
 Here is a repo for processing 3D model by pymeshlab quickly.
 Please follow the following steps to use it which is recommended to use in the environment of python venv.
 
