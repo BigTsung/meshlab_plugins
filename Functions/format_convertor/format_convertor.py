@@ -1,3 +1,4 @@
+import sys
 import pymeshlab
 import argparse
 import glob, os
@@ -14,7 +15,7 @@ if __name__ == '__main__':
     outputPath = args.o
     
     if not inputPath:
-        return
+        sys.exit(0)
 
     print("Input path: ", inputPath)
     ms = pymeshlab.MeshSet()

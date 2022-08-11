@@ -1,3 +1,4 @@
+import sys
 import pymeshlab
 import argparse
 import glob, os
@@ -13,8 +14,8 @@ if __name__ == '__main__':
     print("output path: ", outputPath)
     ms = pymeshlab.MeshSet()
 
-    if not inputPath:
-    	return
+  	if not inputPath:
+        sys.exit(0)
 
     ms.load_new_mesh(inputPath)
     # remove duplicate vertices
