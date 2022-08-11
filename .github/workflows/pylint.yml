@@ -26,4 +26,4 @@ jobs:
         pip install 'pymeshlab==2022.2.post2'
     - name: Analysing the code with pylint
       run: |
-        pylint $(git ls-files '*.py')
+        pylint --disable=all --enable=similarities $(git ls-files '*.py')
