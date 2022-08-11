@@ -13,6 +13,9 @@ if __name__ == '__main__':
     print("output path: ", outputPath)
     ms = pymeshlab.MeshSet()
 
+    if not inputPath:
+    	return
+
     ms.load_new_mesh(inputPath)
     # remove duplicate vertices
     ms.meshing_remove_duplicate_vertices()

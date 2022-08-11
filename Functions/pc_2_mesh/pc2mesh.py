@@ -9,6 +9,10 @@ if __name__ == '__main__':
     args = parser.parse_args()
     inputPath = args.i
     outputPath = args.o
+
+    if not inputPath:
+        return
+
     print("input path: ", inputPath)
     print("output path: ", outputPath)
     ms = pymeshlab.MeshSet()

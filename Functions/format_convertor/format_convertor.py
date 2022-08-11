@@ -12,6 +12,10 @@ if __name__ == '__main__':
     inputPath = args.i
     format = args.f
     outputPath = args.o
+    
+    if not inputPath:
+        return
+
     print("Input path: ", inputPath)
     ms = pymeshlab.MeshSet()
 
