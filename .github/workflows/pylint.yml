@@ -20,12 +20,8 @@ jobs:
         pip install pylint
     - name: Install requirement
       run: |
-        curl -O https://bootstrap.pypa.io/get-pip.py
-        python3 get-pip.py
-        python3 --version
-        pip3 --version
-        pip3 install -e .
-        pip3 install -r $(git ls-files '*requirements.txt')
+        python --version
+        pip --version
     - name: Analysing the code with pylint
       run: |
         pylint $(git ls-files '*.py')
